@@ -1,40 +1,40 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Stein Monteiro",
+    "email": "steim@torontomu.ca; monteiro@conferenceboard.ca",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://steinmonteiro.github.io",
+    "summary": "Lead Research Associate at Conference Board of Canada; Research Affiliate at Toronto Metropolitian University.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "address": "1184 Barr Cresecent",
+      "postalCode": "L9T 6X7",
+      "city": "Milton",
+      "countryCode": "CA",
+      "region": "Ontario"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=6RaI-T8AAAAJ"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0002-3709-4368"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "SteinMonteiro",
+        "url": "https://github.com/SteinMonteiro"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "York University",
+      "area": "Ph.D Economics",
       "studyType": "",
       "startDate": "",
       "endDate": "2018",
@@ -42,7 +42,7 @@
       "courses": []
     },
     {
-      "institution": "GitHub University",
+      "institution": "York University",
       "area": "M.S. in Jekyll",
       "studyType": "",
       "startDate": "",
