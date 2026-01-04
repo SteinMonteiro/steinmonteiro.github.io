@@ -23,9 +23,9 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "stein_monteiro_headshot_2022.jpg"
   name             : "Stein Monteiro"  # Update this with your name
-  pronouns         : # example: "he/him"  
+  pronouns         : "he/him"  
   bio              : "Lead Research Associate at Conference Board of Canada; Research Affiliate at Toronto Metropolitan University"  # Update this with a short bio
   location         : "Milton, ON"
   employer         : "Conference Board of Canada"
