@@ -360,3 +360,8 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+publication_category:
+  - ["journals", {"title": "Peer Reviewed Articles"}]
+  - ["bookchapters", {"title": "Book Chapters"}]
+  - ["workingpapers", {"title": "Working Paper Series"}]
