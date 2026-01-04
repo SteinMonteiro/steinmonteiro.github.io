@@ -364,4 +364,4 @@ compress_html:
 publication_category:
   - ["journals", {"title": "Peer Reviewed Articles"}]
   - ["bookchapters", {"title": "Book Chapters"}]
-  - ["workingpapers", {"title": "Working Paper Series"}]
+  - ["workingpapers", {"title": "Working Papers and Reports"}]
