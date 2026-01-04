@@ -5,6 +5,7 @@ category: journals
 permalink: /publication/2024-01-01-migration-narratives-social-media
 excerpt: 'This article explores migration narratives on social media, focusing on digital racism and subversive migrant subjectivities.'
 date: 2024-01-01
+paperurl: 'https://firstmonday.org/ojs/index.php/fm/article/view/13715'
 venue: 'First Monday'
 citation: 'Monteiro, Stein, and Anna Triandafyllidou. (2024). &quot;Migration narratives on social media: Digital racism and subversive migrant subjectivities.&quot; <i>First Monday</i>. 29(8).'
 ---
