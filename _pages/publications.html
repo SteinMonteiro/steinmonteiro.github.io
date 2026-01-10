@@ -5,46 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
----
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
----
-
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-{% capture publication_template %}
-  <article style="margin-bottom: 40px; border-bottom: 1px solid #e0e0e0; padding-bottom: 20px;">
-    <h3 style="margin-bottom: 5px; color: #333;">{{ post.title }}</h3>
-    
-    <p style="font-size: 0.9em; color: #666; margin-top: 0;">
-      {% if post.venue %}Published in <i>{{ post.venue }}</i>, {% endif %}{{ post.date | date: "%Y" }}
-    </p>
-
-    <div class="publication-content" style="margin-bottom: 10px;">
-      {{ post.content }}
-    </div>
-
-    <div class="publication-links">
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" style="text-decoration: none; font-weight: bold; margin-right: 15px;">[Download Paper]</a>
-      {% endif %}
-      {% if post.slidesurl %}
-        <a href="{{ post.slidesurl }}" style="text-decoration: none; font-weight: bold; margin-right: 15px;">[Slides]</a>
-      {% endif %}
-      {% if post.codeurl %}
-        <a href="{{ post.codeurl }}" style="text-decoration: none; font-weight: bold;">[Code]</a>
-      {% endif %}
-    </div>
-  </article>
-{% endcapture %}
-
-
+<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -56,16 +23,12 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      
-      {{ publication_template }}
-      
+      {% include archive-single.html %}
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    
-    {{ publication_template }}
-    
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 
