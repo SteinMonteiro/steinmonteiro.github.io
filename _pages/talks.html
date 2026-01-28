@@ -5,15 +5,35 @@ permalink: /talks/
 author_profile: true
 ---
 
-</br>
-Click the titles below for more information.
+<br>
+<p>A list of presentations, talks, and workshops.</p>
 
 {% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
+  <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 {% endif %}
 
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h3 class="archive__item-title" itemprop="headline">{{ post.title }}</h3>
+    
+    <p class="page__meta">
+      <i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}
+      {% if post.type %} | {{ post.type }} {% endif %}
+      {% if post.venue %}<br><strong>{{ post.venue }}</strong>{% endif %}
+      {% if post.location %}, {{ post.location }}{% endif %}
+    </p>
+
+    <div class="archive__item-content" itemprop="text">
+      {{ post.content }}
+    </div>
+
+    <p>
+      {% if post.talk_url %}<a href="{{ post.talk_url }}"><u>[More Info]</u></a> {% endif %}
+      {% if post.slidesurl %}<a href="{{ post.slidesurl }}"><u>[Slides]</u></a> {% endif %}
+      {% if post.video_url %}<a href="{{ post.video_url }}"><u>[Video]</u></a> {% endif %}
+    </p>
+    
+  </article>
+  <hr>
+  {% endfor %}
