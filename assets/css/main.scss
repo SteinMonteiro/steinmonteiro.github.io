@@ -45,3 +45,11 @@
 :root {
   --global-text-color: #333333;
 }
+
+.page__meta {
+  color: #111111 !important; /* Force text to be nearly black */
+}
+
+.page__meta strong {
+  color: #000000 !important; /* Ensures the Venue Name specifically is pitch black */
+}
