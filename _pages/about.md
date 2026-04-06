@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently the Lead Research Associate in the Immigration Knowledge Area at the Conference Board of Canada.
+I am currently the Lead Research Associate in the Immigration Knowledge Area at the Signal49 Research (Formerly The Conference Board of Canada).
 
 I am also a Research Affiliate at Toronto Metropolitan University in the Canada Excellence Research Chair in Migration and Integration Program (@cercmigration).
 
